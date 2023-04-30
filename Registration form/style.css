@@ -1,0 +1,77 @@
+body{
+  background-image: url('registrationbg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1{
+  color:#ebe3e7;
+  letter-spacing: 1.3px;
+  font-size: 40px;
+}
+
+table{
+  width: 90%;
+  margin: 50px auto;
+  background: rgb(221, 150, 172);
+}
+
+table.list{
+  text-align: center;
+  width: 100%;
+}
+
+td{
+  border: 1px solid rgb(204,200,200);
+  text-align: left;
+  padding: 4px 9px;
+}
+
+tr:nth-child(even), table.list thread> tr{
+  background-color: rgb(204,200,200);
+}
+
+input[type="text"],input[type="number"],input[type="email"],input[type="age"],input[type="phone"]{
+  width:89%;
+  padding:12px 20px;
+  margin:8px 0;
+  display: inline-block;
+  border: 1px solid rgb(23, 22, 22);
+  border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+  background: #e0da71;
+  padding:15px 20px;
+  margin:20px 0 15px;
+  display: inline-block;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="submit"]:hover{
+  background: #94bd79;
+}
+
+input[type="reset"]:hover{
+  background: #94bd79;
+}
+
+button{
+  background: #e0da71;
+  padding:6px 12px;
+  margin:15px 0 10px;
+  display: inline-block;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover{
+  background:#94bd79 ;
+}
